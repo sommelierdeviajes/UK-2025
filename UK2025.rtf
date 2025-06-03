@@ -1,0 +1,252 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red109\green109\blue109;\red236\green241\blue247;\red251\green0\blue7;
+\red0\green0\blue0;\red42\green42\blue42;\red107\green0\blue1;\red0\green0\blue255;\red24\green112\blue43;
+\red9\green60\blue148;\red19\green118\blue70;\red77\green80\blue85;\red111\green14\blue195;\red164\green69\blue11;
+}
+{\*\expandedcolortbl;;\cssrgb\c50196\c50196\c50196;\cssrgb\c94118\c95686\c97647;\cssrgb\c100000\c0\c0;
+\cssrgb\c0\c0\c0;\cssrgb\c21961\c21961\c21961;\cssrgb\c50196\c0\c0;\cssrgb\c0\c0\c100000;\cssrgb\c9412\c50196\c21961;
+\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;\cssrgb\c37255\c38824\c40784;\cssrgb\c51765\c18824\c80784;\cssrgb\c70980\c34902\c3137;
+}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 html\cf0 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf8 \strokec8 "es"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf8 \strokec8 "UTF-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "viewport"\cf0 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf8 \strokec8 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \strokec5 Gu\'eda Interactiva de Londres\cf6 \strokec6 </\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "stylesheet"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf7 \strokec7 body\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 font-family:\cf0 \strokec5  \cf9 \strokec9 'Inter'\cf0 \strokec5 , \cf10 \strokec10 sans-serif\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 background-color:\cf0 \strokec5  \cf10 \strokec10 #f0f2f5\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 color:\cf0 \strokec5  \cf10 \strokec10 #333\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .container\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 max-width:\cf0 \strokec5  \cf11 \strokec11 1200px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 margin:\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5  \cf10 \strokec10 auto\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 padding:\cf0 \strokec5  \cf11 \strokec11 1rem\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .day-button.active\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 background-color:\cf0 \strokec5  \cf10 \strokec10 #3b82f6\cf0 \strokec5 ; \cf12 \strokec12 /* Tailwind blue-500 */\cf0 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf0 \strokec5  \cf10 \strokec10 white\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 box-shadow:\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5  \cf11 \strokec11 4px\cf0 \strokec5  \cf11 \strokec11 6px\cf0 \strokec5  \cf10 \strokec10 rgba(\cf11 \strokec11 0\cf0 \strokec5 , \cf11 \strokec11 0\cf0 \strokec5 , \cf11 \strokec11 0\cf0 \strokec5 , \cf11 \strokec11 0.1\cf10 \strokec10 )\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .activity-card\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 background-color:\cf0 \strokec5  \cf10 \strokec10 white\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 border-radius:\cf0 \strokec5  \cf11 \strokec11 0.75rem\cf0 \strokec5 ; \cf12 \strokec12 /* rounded-xl */\cf0 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 box-shadow:\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5  \cf11 \strokec11 4px\cf0 \strokec5  \cf11 \strokec11 6px\cf0 \strokec5  \cf10 \strokec10 rgba(\cf11 \strokec11 0\cf0 \strokec5 , \cf11 \strokec11 0\cf0 \strokec5 , \cf11 \strokec11 0\cf0 \strokec5 , \cf11 \strokec11 0.1\cf10 \strokec10 )\cf0 \strokec5 ; \cf12 \strokec12 /* shadow-md */\cf0 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding:\cf0 \strokec5  \cf11 \strokec11 1.5rem\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 margin-bottom:\cf0 \strokec5  \cf11 \strokec11 1rem\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 transition:\cf0 \strokec5  \cf10 \strokec10 transform\cf0 \strokec5  \cf11 \strokec11 0.2s\cf0 \strokec5  \cf10 \strokec10 ease-in-out\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .activity-card:hover\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 translateY(\cf11 \strokec11 -5px\cf10 \strokec10 )\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .map-link\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 display:\cf0 \strokec5  \cf10 \strokec10 inline-block\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 margin-top:\cf0 \strokec5  \cf11 \strokec11 1rem\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 padding:\cf0 \strokec5  \cf11 \strokec11 0.5rem\cf0 \strokec5  \cf11 \strokec11 1rem\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 background-color:\cf0 \strokec5  \cf10 \strokec10 #10b981\cf0 \strokec5 ; \cf12 \strokec12 /* Tailwind emerald-500 */\cf0 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf0 \strokec5  \cf10 \strokec10 white\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 border-radius:\cf0 \strokec5  \cf11 \strokec11 0.5rem\cf0 \strokec5 ; \cf12 \strokec12 /* rounded-lg */\cf0 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 text-decoration:\cf0 \strokec5  \cf10 \strokec10 none\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 font-weight:\cf0 \strokec5  \cf11 \strokec11 600\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 transition:\cf0 \strokec5  \cf10 \strokec10 background-color\cf0 \strokec5  \cf11 \strokec11 0.2s\cf0 \strokec5  \cf10 \strokec10 ease-in-out\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .map-link:hover\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 background-color:\cf0 \strokec5  \cf10 \strokec10 #059669\cf0 \strokec5 ; \cf12 \strokec12 /* Tailwind emerald-600 */\cf0 \cb1 \strokec5 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .activity-image\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 width:\cf0 \strokec5  \cf11 \strokec11 100%\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 height:\cf0 \strokec5  \cf11 \strokec11 180px\cf0 \strokec5 ; \cf12 \strokec12 /* Fixed height for consistency */\cf0 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 object-fit:\cf0 \strokec5  \cf10 \strokec10 cover\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 border-radius:\cf0 \strokec5  \cf11 \strokec11 0.5rem\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 margin-bottom:\cf0 \strokec5  \cf11 \strokec11 1rem\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 body\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "min-h-screen flex flex-col"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3     \cf6 \strokec6 <\cf7 \strokec7 header\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-6 shadow-lg rounded-b-xl"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "container text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 h1\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-4xl font-bold mb-2"\cf6 \strokec6 >\cf0 \strokec5 Gu\'eda Interactiva de Londres\cf6 \strokec6 </\cf7 \strokec7 h1\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg"\cf6 \strokec6 >\cf0 \strokec5 Tu itinerario de 5 d\'edas por la capital brit\'e1nica\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 header\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 main\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex-grow container py-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 nav\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mb-8 flex flex-wrap justify-center gap-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "day-button bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg shadow-sm hover:bg-blue-100 transition-colors"\cf0 \strokec5  \cf4 \strokec4 data-day\cf6 \strokec6 =\cf8 \strokec8 "day1"\cf6 \strokec6 >\cf0 \strokec5 Do 29/6\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "day-button bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg shadow-sm hover:bg-blue-100 transition-colors"\cf0 \strokec5  \cf4 \strokec4 data-day\cf6 \strokec6 =\cf8 \strokec8 "day2"\cf6 \strokec6 >\cf0 \strokec5 Lu 30/6\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "day-button bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg shadow-sm hover:bg-blue-100 transition-colors"\cf0 \strokec5  \cf4 \strokec4 data-day\cf6 \strokec6 =\cf8 \strokec8 "day3"\cf6 \strokec6 >\cf0 \strokec5 Ma 1/7\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "day-button bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg shadow-sm hover:bg-blue-100 transition-colors"\cf0 \strokec5  \cf4 \strokec4 data-day\cf6 \strokec6 =\cf8 \strokec8 "day4"\cf6 \strokec6 >\cf0 \strokec5 Mi 2/7\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "day-button bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg shadow-sm hover:bg-blue-100 transition-colors"\cf0 \strokec5  \cf4 \strokec4 data-day\cf6 \strokec6 =\cf8 \strokec8 "day5"\cf6 \strokec6 >\cf0 \strokec5 Ju 3/7\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 nav\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "itinerary-content"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 <!-- Content for each day will be loaded here by JavaScript -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 main\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 footer\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-gray-800 text-white p-4 text-center rounded-t-xl mt-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \strokec5 \'a9 2025 Gu\'eda de Viaje a Londres. \'a1Disfruta tu aventura!\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 footer\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 const\cf0 \strokec5  itineraryData = \{\cb1 \
+\cb3             day1: \{\cb1 \
+\cb3                 title: \cf9 \strokec9 "D\'eda 1: Domingo 29 de junio - Westminster y South Bank"\cf0 \strokec5 ,\cb1 \
+\cb3                 mapLink: \cf9 \strokec9 "https://www.google.com/maps/dir/Eastlight+Apartments,+18+Dock+St,+London+E1+8QW,+UK/Buckingham+Palace,+London+SW1A+1AA,+UK/Horse+Guards+Parade,+London+SW1A+2AX,+UK/St.+James's+Park,+London+SW1A+2BJ,+UK/Westminster+Abbey,+Dean's+Yard,+London+SW1P+3PA,+UK/Big+Ben,+London+SW1A+0AA,+UK/Westminster+Bridge,+London+SW1A+2JH,+UK/London+Eye,+Riverside+Building,+County+Hall,+London+SE1+7PB,+UK/Westminster+Pier,+Victoria+Embankment,+London+SW1A+2JH,+UK/Leake+Street+Arches,+Leake+St,+London+SE1,+UK"\cf0 \strokec5 ,\cb1 \
+\cb3                 activities: [\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "09:30 - 10:00 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "Salida desde Eastlight Apartments"\cf0 \strokec5 , description: \cf9 \strokec9 "Comienza tu d\'eda con un corto trayecto en transporte p\'fablico hacia el coraz\'f3n de Londres."\cf0 \strokec5 , imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/ADD8E6/000?text=Alojamiento"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "10:00 - 11:30 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "Buckingham Palace - Cambio de Guardia"\cf0 \strokec5 , description: \cf9 \strokec9 "S\'e9 testigo de la famosa ceremonia del Cambio de Guardia en la residencia oficial de la monarqu\'eda brit\'e1nica. Llega temprano para asegurar una buena vista."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Palacio de Buckingham (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.rct.uk/visit/buckingham-palace"\cf0 \strokec5  \}, \{ text: \cf9 \strokec9 "Cambio de Guardia (Horarios)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.householddivision.org.uk/trooping-the-colour"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/87CEEB/FFFFFF?text=Cambio+de+Guardia"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "11:30 AM - 12:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Parliament Street (The Horse Guards)"\cf0 \strokec5 , description: \cf9 \strokec9 "Admira a los impresionantes guardias a caballo en su puesto ceremonial. Es un lugar excelente para fotos y est\'e1 a poca distancia del palacio."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "The Household Cavalry Museum"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.householdcavalrymuseum.org.uk/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/6A5ACD/FFFFFF?text=Guardias+a+Caballo"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "12:00 PM - 01:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Paseo por St. James's Park"\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de un relajante paseo por uno de los parques reales m\'e1s hermosos de Londres, con vistas al palacio y al lago, hogar de pel\'edcanos."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "St. James's Park (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.royalparks.org.uk/parks/st-jamess-park"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/90EE90/000?text=Parque+Real"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "01:00 PM - 02:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Big Ben y Westminster Bridge"\cf0 \strokec5 , description: \cf9 \strokec9 "Cruza el ic\'f3nico Puente de Westminster para obtener vistas espectaculares del Big Ben (Elizabeth Tower) y el Parlamento. Un s\'edmbolo inconfundible de Londres."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Parlamento Brit\'e1nico (Big Ben)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/4682B4/FFFFFF?text=Big+Ben"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "02:00 PM - 02:50 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Almuerzo cerca de Westminster Abbey"\cf0 \strokec5 , description: \cf9 \strokec9 "Una pausa para recargar energ\'edas con un almuerzo r\'e1pido antes de la pr\'f3xima actividad cultural."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "02:50 PM - 03:45 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Westminster Abbey - Ceremonia de Evensong (15:00 h / 3 PM)"\cf0 \strokec5 , description: \cf9 \strokec9 "Asiste a la emotiva ceremonia de Evensong en esta hist\'f3rica abad\'eda, un momento de reflexi\'f3n y m\'fasica coral. Lleguen unos minutos antes para asegurar asiento."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Westminster Abbey (Calendario)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.westminster-abbey.org/worship-music/services-calendar"\cf0 \strokec5  \}, \{ text: \cf9 \strokec9 "Westminster Abbey (Visitas)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.westminster-abbey.org/visit-us"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/8B0000/FFFFFF?text=Abad\'eda+Hist\'f3rica"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "03:45 PM - 04:15 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Visita breve 'imperdible' en Westminster Abbey (Opcional)"\cf0 \strokec5 , description: \cf9 \strokec9 "Si el tiempo y las regulaciones lo permiten, realiza una visita r\'e1pida a los puntos m\'e1s destacados del interior de la Abad\'eda despu\'e9s de la ceremonia."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "04:15 PM - 05:45 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "London Eye"\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de una perspectiva \'fanica de Londres desde lo alto de esta famosa noria. Las vistas panor\'e1micas son espectaculares, especialmente al atardecer."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "London Eye (Reserva)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.londoneye.com/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/B0C4DE/000?text=London+Eye"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "05:45 PM - 07:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Paseo/Crucero por el T\'e1mesis"\cf0 \strokec5 , description: \cf9 \strokec9 "Rel\'e1jate con un paseo en barco por el r\'edo T\'e1mesis, pasando por muchos de los monumentos ic\'f3nicos de la ciudad y obteniendo una vista diferente de Londres."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "City Cruises (Reserva)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.cityexperiences.com/london/city-cruises/"\cf0 \strokec5  \}, \{ text: \cf9 \strokec9 "Uber Boat by Thames Clippers"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.thamesclippers.com/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/87CEFA/000?text=Crucero+por+el+T\'e1mesis"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "07:00 PM - 08:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Leake Street Arches (Graffiti Tunnel)"\cf0 \strokec5 , description: \cf9 \strokec9 "Explora esta vibrante galer\'eda de arte callejero subterr\'e1nea, donde artistas de graffiti crean constantemente nuevas obras. Un contraste moderno con la historia del d\'eda."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Leake Street Arches (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.leakestreetarches.london/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/6A5ACD/FFFFFF?text=Arte+Urbano"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "08:00 PM en adelante"\cf0 \strokec5 , name: \cf9 \strokec9 "Cena y regreso a Eastlight Apartments."\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de una cena relajada y regresa a tu alojamiento."\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \},\cb1 \
+\cb3             day2: \{\cb1 \
+\cb3                 title: \cf9 \strokec9 "D\'eda 2: Lunes 30 de junio - Soho, Covent Garden y Piccadilly"\cf0 \strokec5 ,\cb1 \
+\cb3                 mapLink: \cf9 \strokec9 "https://www.google.com/maps/dir/Eastlight+Apartments,+18+Dock+St,+London+E1+8QW,+UK/Trafalgar+Square,+London+WC2N+5DS,+UK/Outernet+London,+Charing+Cross+Rd,+London+WC2H+8LH,+UK/Leicester+Square,+London+WC2H+7LU,+UK/Chinatown,+London+W1D+5QA,+UK/Piccadilly+Circus,+London,+UK/Regent+Street,+London,+UK/Soho,+London,+UK/Poppies+Fish+%26+Chips,+Old+Compton+Street,+London,+UK/Cahoots+Underground,+Kingly+Court,+London,+UK/Covent+Garden,+London,+UK/Seven+Dials+Market,+London+WC2H+9AU,+UK/Neal's+Yard,+London+WC2H,+UK/Mayfair,+London,+UK"\cf0 \strokec5 ,\cb1 \
+\cb3                 activities: [\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "09:30 AM - 10:00 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "Salida desde Eastlight Apartments"\cf0 \strokec5 , description: \cf9 \strokec9 "Comienza tu d\'eda dirigi\'e9ndote al animado centro de Londres."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "10:00 AM - 10:45 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "Trafalgar Square"\cf0 \strokec5 , description: \cf9 \strokec9 "Visita esta famosa plaza, hogar de la Columna de Nelson, fuentes y leones. Un punto de encuentro cultural y social."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Trafalgar Square (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.visitlondon.com/things-to-do/sightseeing/landmark/trafalgar-square"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/FFD700/000?text=Plaza+Emblem\'e1tica"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "10:45 AM - 11:30 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "Outernet (Proyecci\'f3n Colorida)"\cf0 \strokec5 , description: \cf9 \strokec9 "Sum\'e9rgete en una experiencia visual futurista con proyecciones digitales envolventes en este espacio p\'fablico innovador."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Outernet London (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.outernetglobal.com/london/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/8A2BE2/FFFFFF?text=Proyecci\'f3n+Digital"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "11:30 AM - 12:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Leicester Square, Chinatown y Piccadilly Circus"\cf0 \strokec5 , description: \cf9 \strokec9 "Pasea por el vibrante Leicester Square, d\'e9jate llevar por los aromas y colores de Chinatown, y admira las ic\'f3nicas pantallas luminosas de Piccadilly Circus."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Chinatown London (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://chinatown.co.uk/"\cf0 \strokec5  \}, \{ text: \cf9 \strokec9 "Piccadilly Circus (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.visitlondon.com/things-to-do/sightseeing/landmark/piccadilly-circus"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/FF6347/FFFFFF?text=Piccadilly+Circus"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "12:30 PM - 01:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Regent Street (Opcional: tiendas)"\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de un paseo por esta elegante calle comercial, conocida por su arquitectura curva y sus tiendas insignia."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "01:00 PM - 02:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Almuerzo en Soho o cerca."\cf0 \strokec5 , description: \cf9 \strokec9 "Explora las diversas opciones gastron\'f3micas en el animado barrio del Soho."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "02:00 PM - 03:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Soho (Exploraci\'f3n, The Poppies y Cahoots Underground)"\cf0 \strokec5 , description: \cf9 \strokec9 "Sum\'e9rgete en el ambiente bohemio y vibrante del Soho. Busca 'The Poppies' (si a\'fan est\'e1n) y admira la fachada de 'Cahoots Underground', un bar tem\'e1tico \'fanico."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Soho (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.visitlondon.com/things-to-do/sightseeing/london-areas/soho"\cf0 \strokec5  \}, \{ text: \cf9 \strokec9 "Cahoots (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.cahoots-london.com/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/DA70D6/FFFFFF?text=Barrio+Vibrante"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "03:30 PM - 05:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Covent Garden y Seven Dials Market"\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de los artistas callejeros, las boutiques \'fanicas y explora el bullicioso Seven Dials Market, un para\'edso para los amantes de la comida."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Covent Garden (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.coventgarden.london/"\cf0 \strokec5  \}, \{ text: \cf9 \strokec9 "Seven Dials Market (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.sevendialsmarket.com/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/FF69B4/FFFFFF?text=Mercado+y+Espect\'e1culos"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "05:30 PM - 06:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Neal's Yard"\cf0 \strokec5 , description: \cf9 \strokec9 "Descubre este pintoresco y colorido patio escondido, un oasis de tranquilidad con tiendas y caf\'e9s independientes. Perfecto para una foto."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Neal's Yard (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.atlasobscura.com/places/neals-yard"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/9ACD32/000?text=Patio+Colorido"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "06:00 PM - 07:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Mayfair (Paseo)"\cf0 \strokec5 , description: \cf9 \strokec9 "Pasea por el elegante barrio de Mayfair, conocido por sus galer\'edas de arte, tiendas de lujo y arquitectura georgiana. Simplemente para apreciar el ambiente."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Mayfair (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.visitlondon.com/things-to-do/sightseeing/london-areas/mayfair"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/BDB76B/000?text=Barrio+Elegante"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "07:00 PM en adelante"\cf0 \strokec5 , name: \cf9 \strokec9 "Cena y regreso a Eastlight Apartments."\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de una cena y regresa a tu alojamiento."\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \},\cb1 \
+\cb3             day3: \{\cb1 \
+\cb3                 title: \cf9 \strokec9 "D\'eda 3: Martes 1 de julio - La City de Londres y las Torres"\cf0 \strokec5 ,\cb1 \
+\cb3                 mapLink: \cf9 \strokec9 "https://www.google.com/maps/dir/Eastlight+Apartments,+18+Dock+St,+London+E1+8QW,+UK/Tower+of+London,+London+EC3N+4AB,+UK/Tower+Bridge,+Tower+Bridge+Rd,+London+SE1+2UP,+UK/St+Dunstan+in+the+East+Church+Garden,+St+Dunstan's+Hill,+London+EC3R+5DD,+UK/Sky+Garden,+1+Sky+Garden+Walk,+London+EC3M+8AF,+UK/Millennium+Bridge,+Thames+Embankment,+London+EC4V+3QH,+UK/St+Paul's+Cathedral,+St.+Paul's+Churchyard,+London+EC4M+8AD,+UK"\cf0 \strokec5 ,\cb1 \
+\cb3                 activities: [\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "09:30 AM - 10:00 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "Salida desde Eastlight Apartments"\cf0 \strokec5 , description: \cf9 \strokec9 "Comienza tu d\'eda con un corto paseo desde tu alojamiento hasta la hist\'f3rica Torre de Londres."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "10:00 AM - 12:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Tower of London (2 horas)"\cf0 \strokec5 , description: \cf9 \strokec9 "Explora esta fortaleza hist\'f3rica, hogar de las Joyas de la Corona, los famosos Beefeaters y cuervos. Descubre su fascinante y a menudo macabra historia."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Tower of London (Reserva)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.hrp.org.uk/tower-of-london/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/8B0000/FFFFFF?text=Torre+de+Londres"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "12:00 PM - 01:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Tower Bridge (1.5 horas - con exposici\'f3n)"\cf0 \strokec5 , description: \cf9 \strokec9 "Cruza y explora el ic\'f3nico Tower Bridge. Camina por sus pasarelas elevadas con suelo de cristal y visita las hist\'f3ricas salas de m\'e1quinas victorianas."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Tower Bridge Exhibition (Reserva)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.towerbridge.org.uk/plan-your-visit/buy-tickets"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/4682B4/FFFFFF?text=Tower+Bridge"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "01:30 PM - 02:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Almuerzo cerca de Tower Bridge o en la City."\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de un almuerzo en los alrededores de estas hist\'f3ricas atracciones."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "02:30 PM - 03:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "St. Dunstan in the East (Iglesia Abandonada)"\cf0 \strokec5 , description: \cf9 \strokec9 "Descubre este pintoresco jard\'edn p\'fablico construido entre las ruinas de una antigua iglesia. Un oasis de paz y belleza en el coraz\'f3n de la City."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "St. Dunstan in the East (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/city-gardens/st-dunstan-in-the-east"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/8FBC8F/000?text=Ruinas+de+Iglesia"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "03:00 PM - 04:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Sky Garden"\cf0 \strokec5 , description: \cf9 \strokec9 "Sube a este jard\'edn p\'fablico en lo alto de un rascacielos para disfrutar de impresionantes vistas panor\'e1micas de Londres. \'a1Recuerda reservar tu entrada gratuita con antelaci\'f3n!"\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Sky Garden (Reserva)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://skygarden.london/booking/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/ADD8E6/000?text=Jard\'edn+Panor\'e1mico"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "04:30 PM - 05:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Millennium Bridge"\cf0 \strokec5 , description: \cf9 \strokec9 "Pasea por este moderno puente peatonal que conecta la Tate Modern con la Catedral de San Pablo, ofreciendo vistas ic\'f3nicas del T\'e1mesis."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Millennium Bridge (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.visitlondon.com/things-to-do/sightseeing/landmark/millennium-bridge"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/D3D3D3/000?text=Puente+Moderno"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "05:00 PM - 06:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "St Paul's Cathedral"\cf0 \strokec5 , description: \cf9 \strokec9 "Visita la magn\'edfica Catedral de San Pablo, una obra maestra arquitect\'f3nica con una c\'fapula impresionante y una rica historia. Conc\'e9ntrate en lo 'imperdible' de su interior."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "St Paul's Cathedral (Reserva)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.stpauls.co.uk/plan-your-visit"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/F0F8FF/000?text=Catedral+Imponente"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "06:30 PM en adelante"\cf0 \strokec5 , name: \cf9 \strokec9 "Cena y regreso a Eastlight Apartments."\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de una cena relajada y regresa a tu alojamiento."\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \},\cb1 \
+\cb3             day4: \{\cb1 \
+\cb3                 title: \cf9 \strokec9 "D\'eda 4: Mi\'e9rcoles 2 de julio - Museos y el Oeste de Londres"\cf0 \strokec5 ,\cb1 \
+\cb3                 mapLink: \cf9 \strokec9 "https://www.google.com/maps/dir/Eastlight+Apartments,+18+Dock+St,+London+E1+8QW,+UK/Natural+History+Museum,+Cromwell+Rd,+South+Kensington,+London+SW7+5BD,+UK/Hyde+Park,+London+W2+2UH,+UK/Notting+Hill,+London,+UK"\cf0 \strokec5 ,\cb1 \
+\cb3                 activities: [\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "09:30 AM - 10:00 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "Salida desde Eastlight Apartments"\cf0 \strokec5 , description: \cf9 \strokec9 "Viaja en transporte p\'fablico hacia el \'e1rea de South Kensington, hogar de varios museos."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "10:00 AM - 12:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Natural History Museum (2 horas)"\cf0 \strokec5 , description: \cf9 \strokec9 "Explora las maravillas del mundo natural en este impresionante museo, famoso por su arquitectura y sus esqueletos de dinosaurios, incluyendo el ic\'f3nico 'Dippy' (o 'Hope')."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Natural History Museum (Reserva)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.nhm.ac.uk/visit.html"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/8FBC8F/000?text=Museo+de+Historia+Natural"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "12:00 PM - 01:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Almuerzo cerca del museo o en el propio museo."\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de un almuerzo en las cercan\'edas del museo o en sus cafeter\'edas."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "01:00 PM - 02:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Hyde Park"\cf0 \strokec5 , description: \cf9 \strokec9 "Rel\'e1jate y pasea por uno de los parques urbanos m\'e1s grandes de Londres. Puedes visitar el Serpentine o simplemente disfrutar de la naturaleza."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Hyde Park (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.royalparks.org.uk/parks/hyde-park"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/98FB98/000?text=Parque+Urbano"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "02:30 PM - 03:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Desplazamiento a Notting Hill."\cf0 \strokec5 , description: \cf9 \strokec9 "Un corto trayecto en transporte p\'fablico te llevar\'e1 al encantador barrio de Notting Hill."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "03:00 PM - 06:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Notting Hill"\cf0 \strokec5 , description: \cf9 \strokec9 "Explora las coloridas calles victorianas, las boutiques vintage y el ambiente bohemio de este famoso barrio. Aunque el mercado principal es los s\'e1bados, el encanto de sus casas y tiendas es constante."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Notting Hill (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.visitlondon.com/things-to-do/sightseeing/london-areas/notting-hill"\cf0 \strokec5  \}, \{ text: \cf9 \strokec9 "Portobello Road Market (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.portobelloroad.co.uk/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/FFB6C1/000?text=Notting+Hill"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "06:00 PM en adelante"\cf0 \strokec5 , name: \cf9 \strokec9 "Cena en Notting Hill o regreso a Eastlight Apartments."\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de una cena en el vibrante Notting Hill o regresa a tu alojamiento."\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \},\cb1 \
+\cb3             day5: \{\cb1 \
+\cb3                 title: \cf9 \strokec9 "D\'eda 5: Jueves 3 de julio - Camden, King's Cross y British Museum"\cf0 \strokec5 ,\cb1 \
+\cb3                 mapLink: \cf9 \strokec9 "https://www.google.com/maps/dir/Eastlight+Apartments,+18+Dock+St,+London+E1+8QW,+UK/King's+Cross+Station,+Euston+Rd,+London+N1+9AP,+UK/The+British+Museum,+Great+Russell+St,+London+WC1B+3DG,+UK/Camden+Town,+London,+UK/Regent's+Park,+London,+UK"\cf0 \strokec5 ,\cb1 \
+\cb3                 activities: [\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "09:30 AM - 10:00 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "Salida desde Eastlight Apartments"\cf0 \strokec5 , description: \cf9 \strokec9 "Dir\'edgete a la zona de King's Cross para comenzar tu \'faltimo d\'eda de exploraci\'f3n."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "10:00 AM - 11:00 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "King's Cross Station (Decoraci\'f3n Harry Potter)"\cf0 \strokec5 , description: \cf9 \strokec9 "Visita la ic\'f3nica Plataforma 9 \'be y la tienda tem\'e1tica de Harry Potter en la estaci\'f3n King's Cross. Ideal para fotos y souvenirs m\'e1gicos."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "King's Cross Station (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://kingscross.co.uk/"\cf0 \strokec5  \}, \{ text: \cf9 \strokec9 "Platform 9 \'be (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.wbstudiotour.co.uk/explore/platform-9-3-4/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/7B68EE/FFFFFF?text=Estaci\'f3n+Harry+Potter"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "11:00 AM - 11:30 AM"\cf0 \strokec5 , name: \cf9 \strokec9 "Desplazamiento al British Museum."\cf0 \strokec5 , description: \cf9 \strokec9 "Un corto paseo o trayecto en autob\'fas te llevar\'e1 a uno de los museos m\'e1s importantes del mundo."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "11:30 AM - 01:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "British Museum (1.5 horas)"\cf0 \strokec5 , description: \cf9 \strokec9 "Explora los tesoros del British Museum, centr\'e1ndote en lo 'imperdible' como la Piedra Rosetta, las momias egipcias y las esculturas del Parten\'f3n."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "British Museum (Reserva)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.britishmuseum.org/visit"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/B0E0E6/000?text=Museo+Brit\'e1nico"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "01:00 PM - 02:00 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Almuerzo cerca del British Museum o en el propio museo."\cf0 \strokec5 , description: \cf9 \strokec9 "Disfruta de un almuerzo en los alrededores del museo."\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "02:00 PM - 04:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Camden Town (Markets, Street Food y Canales)"\cf0 \strokec5 , description: \cf9 \strokec9 "Sum\'e9rgete en la cultura alternativa de Camden. Explora sus famosos mercados, prueba la deliciosa comida callejera y pasea junto a los canales."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Camden Market (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.camdenmarket.com/"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/808000/FFFFFF?text=Mercado+Alternativo"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "04:30 PM - 05:30 PM"\cf0 \strokec5 , name: \cf9 \strokec9 "Regent's Park (Opcional/Breve)"\cf0 \strokec5 , description: \cf9 \strokec9 "Si el tiempo y la energ\'eda lo permiten, disfruta de un paseo tranquilo por este hermoso parque, conocido por sus jardines de rosas y amplias zonas verdes."\cf0 \strokec5 , links: [\{ text: \cf9 \strokec9 "Regent's Park (Info)"\cf0 \strokec5 , url: \cf9 \strokec9 "https://www.royalparks.org.uk/parks/regents-park"\cf0 \strokec5  \}], imageUrl: \cf9 \strokec9 "https://placehold.co/400x180/9ACD32/000?text=Parque+Real"\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ time: \cf9 \strokec9 "05:30 PM en adelante"\cf0 \strokec5 , name: \cf9 \strokec9 "Regreso a Eastlight Apartments y tiempo libre."\cf0 \strokec5 , description: \cf9 \strokec9 "Regresa a tu alojamiento para descansar o disfrutar de una \'faltima cena en Londres."\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \}\cb1 \
+\cb3         \};\cb1 \
+\
+\cb3         \cf13 \strokec13 const\cf0 \strokec5  itineraryContent = document.getElementById(\cf9 \strokec9 'itinerary-content'\cf0 \strokec5 );\cb1 \
+\cb3         \cf13 \strokec13 const\cf0 \strokec5  dayButtons = document.querySelectorAll(\cf9 \strokec9 '.day-button'\cf0 \strokec5 );\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  renderDay(dayKey) \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  dayData = itineraryData[dayKey];\cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5  (!dayData) \{\cb1 \
+\cb3                 itineraryContent.innerHTML = \cf9 \strokec9 '<p class="text-center text-red-500">No se encontr\'f3 informaci\'f3n para este d\'eda.</p>'\cf0 \strokec5 ;\cb1 \
+\cb3                 \cf13 \strokec13 return\cf0 \strokec5 ;\cb1 \
+\cb3             \}\cb1 \
+\
+\cb3             \cf13 \strokec13 let\cf0 \strokec5  html = \cf9 \strokec9 `\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf9 \cb3 \strokec9                 <div class="bg-white p-6 rounded-xl shadow-lg">\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                     <h2 class="text-3xl font-bold text-blue-700 mb-4">\cf0 \strokec5 $\{dayData.title\}\cf9 \strokec9 </h2>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                     <a href="\cf0 \strokec5 $\{dayData.mapLink\}\cf9 \strokec9 " target="_blank" class="map-link">Ver Ruta en Google Maps</a>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                     <div class="mt-6 space-y-4">\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9             `\cf0 \strokec5 ;\cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3             dayData.activities.forEach(activity => \{\cb1 \
+\cb3                 html += \cf9 \strokec9 `\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf9 \cb3 \strokec9                     <div class="activity-card">\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                         <img src="\cf0 \strokec5 $\{activity.imageUrl\}\cf9 \strokec9 " alt="\cf0 \strokec5 $\{activity.name\}\cf9 \strokec9 " class="activity-image" onerror="this.onerror=null;this.src='https://placehold.co/400x180/CCCCCC/000?text=Imagen+no+disponible';">\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                         <h3 class="text-xl font-semibold text-gray-900 mb-2">\cf0 \strokec5 $\{activity.time\}\cf9 \strokec9 : \cf0 \strokec5 $\{activity.name\}\cf9 \strokec9 </h3>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                         <p class="text-gray-700 mb-2">\cf0 \strokec5 $\{activity.description\}\cf9 \strokec9 </p>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                 `\cf0 \strokec5 ;\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3                 \cf13 \strokec13 if\cf0 \strokec5  (activity.links && activity.links.length > \cf14 \strokec14 0\cf0 \strokec5 ) \{\cb1 \
+\cb3                     html += \cf9 \strokec9 `<div class="flex flex-wrap gap-2 mt-2">`\cf0 \strokec5 ;\cb1 \
+\cb3                     activity.links.forEach(link => \{\cb1 \
+\cb3                         html += \cf9 \strokec9 `<a href="\cf0 \strokec5 $\{link.url\}\cf9 \strokec9 " target="_blank" class="text-blue-600 hover:underline text-sm">\cf0 \strokec5 $\{link.text\}\cf9 \strokec9 </a>`\cf0 \strokec5 ;\cb1 \
+\cb3                     \});\cb1 \
+\cb3                     html += \cf9 \strokec9 `</div>`\cf0 \strokec5 ;\cb1 \
+\cb3                 \}\cb1 \
+\cb3                 html += \cf9 \strokec9 `</div>`\cf0 \strokec5 ; \cf12 \strokec12 // Close activity-card\cf0 \cb1 \strokec5 \
+\cb3             \});\cb1 \
+\
+\cb3             html += \cf9 \strokec9 `\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf9 \cb3 \strokec9                     </div>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                 </div>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9             `\cf0 \strokec5 ;\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3             itineraryContent.innerHTML = html;\cb1 \
+\
+\cb3             \cf12 \strokec12 // Update active button state\cf0 \cb1 \strokec5 \
+\cb3             dayButtons.forEach(button => button.classList.remove(\cf9 \strokec9 'active'\cf0 \strokec5 ));\cb1 \
+\cb3             document.querySelector(\cf9 \strokec9 `.day-button[data-day="\cf0 \strokec5 $\{dayKey\}\cf9 \strokec9 "]`\cf0 \strokec5 ).classList.add(\cf9 \strokec9 'active'\cf0 \strokec5 );\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 // Event listeners for day buttons\cf0 \cb1 \strokec5 \
+\cb3         dayButtons.forEach(button => \{\cb1 \
+\cb3             button.addEventListener(\cf9 \strokec9 'click'\cf0 \strokec5 , () => \{\cb1 \
+\cb3                 renderDay(button.dataset.day);\cb1 \
+\cb3             \});\cb1 \
+\cb3         \});\cb1 \
+\
+\cb3         \cf12 \strokec12 // Render Day 1 by default on load\cf0 \cb1 \strokec5 \
+\cb3         document.addEventListener(\cf9 \strokec9 'DOMContentLoaded'\cf0 \strokec5 , () => \{\cb1 \
+\cb3             renderDay(\cf9 \strokec9 'day1'\cf0 \strokec5 );\cb1 \
+\cb3         \});\cb1 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 body\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 html\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+}
